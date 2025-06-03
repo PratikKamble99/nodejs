@@ -1,0 +1,10 @@
+Connecting mysql database with node JS
+steps:- 
+1. Download Mysql and mysql workbench
+2. Create a new schema (database) in mysql
+3. install mysql2 npm package
+
+# Open mysql shell terminal
+    mysql -u root -p
+
+

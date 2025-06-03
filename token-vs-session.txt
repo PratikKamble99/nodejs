@@ -1,0 +1,18 @@
+Authentication approach
+1. Token-Based Authentication
+- Stateless: The server does not store any session information. Each request from the client must contain the token.
+- Scalability: Easier to scale since the server does not need to store session data.
+- Security: Tokens can be signed and encrypted, making them secure. However, if a token is stolen, it can be used until it expires.
+- Usage: Commonly used in modern web applications, especially with APIs and mobile apps.
+- Example: JSON Web Tokens (JWT).
+
+2. Session-Based Authentication
+- Stateful: The server stores session information, typically in memory or a database.
+- Scalability: More challenging to scale because the server needs to manage session data.
+- Security: Sessions are usually tied to a specific client and can be invalidated on the server side. However, session IDs can be stolen if not properly secured.
+- Usage: Traditional web applications where the server renders the HTML.
+- Example: PHP sessions, ASP.NET sessions.
+
+Summary
+- Token-Based: Better for stateless, scalable applications, especially with APIs, for long term sessions.
+- Session-Based: Suitable for traditional web applications with server-rendered pages, short term sessions.
