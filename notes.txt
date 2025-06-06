@@ -67,4 +67,5 @@ STATUS_CODES: {
     '511': 'Network Authentication Required'
   },
 
-  # NodeJS works on Event Loop, that's make it non-blocking I/O model.
+REST APIS:- REpresentaional State Transfer
+Used in Client-Server architecture

@@ -26,3 +26,14 @@ Node.js is built on top of the V8 engine, allowing it to execute JavaScript code
 
 - **Default Threads Number :** 4
   if 8 core cpu - Max Threads = 8
+
+# Versioning in Node.js
+
+Eg.4.18.3
+
+- Major Version: 4
+- Minor Version: 18
+- Patch Version: 3 ( optional )
+
+- ^ = Install all recommended and minor fixes automatically
+- ~ = Can install major version automatically

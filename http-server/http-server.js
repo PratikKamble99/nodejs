@@ -3,6 +3,7 @@ const { handler, someOtherData } = require("./routes");
 
 console.log(someOtherData);
 
+// While using express, we can pass "app" directly to the createServer ( app = express() )
 const server = http.createServer(handler);
 
 server.listen(3000, () => {

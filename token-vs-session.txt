@@ -16,3 +16,6 @@ Authentication approach
 Summary
 - Token-Based: Better for stateless, scalable applications, especially with APIs, for long term sessions.
 - Session-Based: Suitable for traditional web applications with server-rendered pages, short term sessions.
+
+Cookies:
+- 
